@@ -8,10 +8,10 @@ The simulated robots are defined as follow:
 - Its current pose in the environment is known (Position and orientation)
 
 Our project contains four main files:
-• agent.py – solution for timing
-• agent_PID.py - solution of controlling the velocity
-• agent_PID_2.py- solution of PID controller strategy
-• agent_angular.py – solution for angular strategy
+- agent.py – solution for timing
+- agent_PID.py - solution of controlling the velocity
+- agent_PID_2.py- solution of PID controller strategy
+- agent_angular.py – solution for angular strategy
 
 PID strategy:
 This implementation uses a PID controller to control the robot's linear velocity based on the distance to the flag. The desired distance from the flag is set as a class attribute, and the proportional, integral, and derivative gains are also set as class attributes. The run_demo function then uses these values to calculate the output of the PID controller and set the robot's linear velocity. The robot will stop when it reaches a distance less than 0.9 from the flag.
