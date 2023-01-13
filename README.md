@@ -17,3 +17,6 @@ PID strategy:
 This implementation uses a PID controller to control the robot's linear velocity based on the distance to the flag. The desired distance from the flag is set as a class attribute, and the proportional, integral, and derivative gains are also set as class attributes. The run_demo function then uses these values to calculate the output of the PID controller and set the robot's linear velocity. The robot will stop when it reaches a distance less than 0.9 from the flag.
 Angular strategy:
 The new strategy that we've provided is a simple approach for controlling the robot's movement based on the distance to the flag. The robot's angular velocity is adjusted based on the distance to the flag, with the robot turning more sharply as it gets closer to the flag. When the distance to the flag is less than 2.3, the robot stops moving. The robot moves forward at a constant linear velocity of 1.8.
+
+
+![image](https://user-images.githubusercontent.com/49718893/212415269-60630c2e-dc49-44cd-a8c9-50821064d4fb.png)
